@@ -1,12 +1,20 @@
-body{background-color:pink;}
-.rojoletra{color:red;font-size:400%;text-align: center;}
+body{background-color: pink}
+.rojoletra{color:red;font-size:200%;text-align: center;}
 .tamaño{font-size:200%;text-align: center;text-decoration: underline;}
 .subrayado{text-decoration: underline;}
 .imagen{width:25%}
-.amarilloletra{color:yellow;}
-header{background-color: white;}
-nav{background-color: lightblue;}
+.amarilloletra{color:blue;font-style: italic;text-align: center;}
+header{height: 250px;
+  display: flex;flex-wrap: wrap;justify-content:space-around;;align-items: center;}
+  .logo{width: 100px}
+.objeto1{width: 20%;height: 100px;background-color: grey;
+display: flex;justify-content: space-around;align-items: center;}
+nav{background-color: lightblue;display: flex;justify-content:space-between;}
 .face{width:50px}
-.what{width:50px;position: fixed;bottom: 10px; right: 10px}
+.what{width:50px}
 .twit{width:50px}
 .insta{width:50px}
+.datos{display: flex;justify-content: center;flex-direction: column;}
+footer{display: flex;flex-wrap: wrap;justify-content: space-around;align-items:center; }
+h3{display: flex;flex-direction: column;}
+iframe{width: 150px;height: 150px}
