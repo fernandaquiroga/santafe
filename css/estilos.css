@@ -1,20 +1,22 @@
-body{background-color: pink}
-.rojoletra{color:red;font-size:200%;text-align: center;}
+body{background-image:url(../imagenes/fondo.jpg);}
+.rojoletra{color:red;font-size:200%;text-align: center;
+font-family: 'Poor Story', cursive;}
 .tamaño{font-size:200%;text-align: center;text-decoration: underline;}
 .subrayado{text-decoration: underline;}
 .imagen{width:25%}
 .amarilloletra{color:blue;font-style: italic;text-align: center;}
-header{height: 250px;
+header{width:100%;height:30%;
   display: flex;flex-wrap: wrap;justify-content:space-around;;align-items: center;}
-  .logo{width: 100px}
-.objeto1{width: 20%;height: 100px;background-color: grey;
-display: flex;justify-content: space-around;align-items: center;}
+  .logo{width: 20%}
+ .objeto1{width: 20%;height:30%;background-color: grey;}
+
 nav{background-color: lightblue;display: flex;justify-content:space-between;}
-.face{width:50px}
-.what{width:50px}
-.twit{width:50px}
-.insta{width:50px}
+.face{width:20%}
+.what{width:20%}
+.twit{width:20%}
+.insta{width:20%}
 .datos{display: flex;justify-content: center;flex-direction: column;}
 footer{display: flex;flex-wrap: wrap;justify-content: space-around;align-items:center; }
-h3{display: flex;flex-direction: column;}
-iframe{width: 150px;height: 150px}
+h3{display: flex;flex-direction: column;font-family: 'Fasthand', cursive;}
+iframe{width: 20%;height:20%}
+a:hover{color: red}
