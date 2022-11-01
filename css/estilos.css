@@ -3,20 +3,48 @@ body{background-image:url(../imagenes/fondo.jpg);}
 font-family: 'Poor Story', cursive;}
 .tamaño{font-size:200%;text-align: center;text-decoration: underline;}
 .subrayado{text-decoration: underline;}
-.imagen{width:25%}
+.imagen{width:20%;height:20%;}
 .amarilloletra{color:blue;font-style: italic;text-align: center;}
-header{width:100%;height:30%;
+header{background-color: pink;width:100%;height:30%;
   display: flex;flex-wrap: wrap;justify-content:space-around;;align-items: center;}
-  .logo{width: 20%}
+  .logo{width: 10%;height: 10%;}
  .objeto1{width: 20%;height:30%;background-color: grey;}
 
-nav{background-color: lightblue;display: flex;justify-content:space-between;}
-.face{width:20%}
-.what{width:20%}
-.twit{width:20%}
-.insta{width:20%}
-.datos{display: flex;justify-content: center;flex-direction: column;}
+nav{background-color: lightblue;display: flex;justify-content:space-around;}
+.face{width:20%;}
+.what{width:20%;}
+.twit{width:20%;}
+.insta{width:20%;}
+.datos{display: flex;justify-content: center;flex-direction: column;color: red}
 footer{display: flex;flex-wrap: wrap;justify-content: space-around;align-items:center; }
 h3{display: flex;flex-direction: column;font-family: 'Fasthand', cursive;}
 iframe{width: 20%;height:20%}
 a:hover{color: red}
+aside{background-color: lightblue;display: flex;align-items: center;justify-content: center;}
+section{background-color:beige;display: flex;justify-content: space-around;}
+ @media (min-width:992px) {
+   .imagen{
+     display: none}
+}
+
+@media (max-width:770px) {
+  .amasa {
+    display: none}
+
+}
+@media (max-width: 600px) {
+  body {
+    background: blue;}
+  }
+
+  @media (max-width: 800px) {
+    nav {
+      background: orange;}
+
+    }
+
+    @media (max-width: 1300px) {
+      section {
+        background: green;}
+
+      }
